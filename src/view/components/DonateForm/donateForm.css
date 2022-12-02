@@ -1,0 +1,60 @@
+.donate-form-wrapper  {
+    width: 80%;
+    height:500px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.donate-form-wrapper form {
+    width: 90%;
+    margin: 0 auto;
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donate-title{
+    font-size: 35px;
+}
+/* .donate-title:after {
+    content: 'U+1F512';
+} */
+
+.button-dollar-container {
+    /* display:flex; */
+    width:100%;
+    position: relative;
+    margin:0 auto;
+}
+
+.button-dollar-container button{
+    /* flex-wrap:  wrap; */
+    /* justify-content: space-between; */
+    font-size: 20px;
+    width:30%;
+    height:40px;
+    margin:1%;
+    padding:5px;
+    border-radius: 7px;
+    border: 2px solid grey;
+    background: white;
+}
+
+
+.donate-input {
+    width:30%;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 114, 167);
+    width:90%;
+    height:50px;
+}
+.donate-button {
+    font-size: 25px;
+    background: linear-gradient(to right, blue, rgb(212, 146, 255));
+    border-radius: 10px;
+    border: 2px solid rgb(0, 114, 167);
+    width:90%;
+    height:50px;
+}
