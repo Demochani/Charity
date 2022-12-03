@@ -17,8 +17,9 @@ export default function DonateForm() {
           <button>$ 500</button>
           <button>$ 1000</button>
         </div>
-        <input className="donate-input" type="text" placeholder="$" />
-        <button className="donate-button">Donate</button>
+        <input className="donate-input" type="text" placeholder="$" pattern="[\d]{1,10}" />
+        
+        <input className="donate-button" type="submit" value="Donate"></input>
       </form>
     </div>
   );

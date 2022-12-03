@@ -4,15 +4,18 @@ header {
 .title-container {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
+  width: 70%;
   margin: 0 auto;
   padding-top: 20px;
   /* background-color: lightgrey; */
 }
+.title {
+  margin-bottom: 100px;
+}
 
 .title h1{
   position: relative;
-  font-size: 30px;
+  font-size: 2.5em;
   font-weight: 700;
   width: 50%;
   /* height:120px; */
@@ -34,7 +37,8 @@ header {
 
 .map-container {
   margin-top: 100px;
-    height: 200px;
+  height: 200px;
+  width: 297.324px;
   /* background-color: green; */
   background-image: url(/public/ua-map.png);
   background-repeat: no-repeat;
@@ -49,4 +53,21 @@ header {
   top: 30px;
   left: 30px;
   
+}
+
+
+@media screen and (min-width: 480px) {
+    
+}
+@media screen and (min-width: 800px) {
+    
+}
+@media screen and (min-width: 1024px) {
+    
+}
+@media screen and (min-width: 1366px) {
+    
+}
+@media screen and (min-width: 1600px) {
+    
 }

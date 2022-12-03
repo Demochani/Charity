@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function DonateCheck() {
+const DonateCheck = () => {
   return (
     <div>index</div>
   )
 }
+
+export default DonateCheck()
