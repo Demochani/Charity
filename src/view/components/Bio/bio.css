@@ -1,0 +1,20 @@
+.bio-container {
+position: relative;
+width:40%;
+margin: 5%;
+}
+
+.bio-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bio-title {
+    position: absolute;
+    top:80%;
+    left: 5%;
+    width: 90%;
+    margin:0 auto;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2px);
+}

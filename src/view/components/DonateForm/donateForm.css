@@ -1,105 +1,107 @@
-
-
-
-.donate-form-wrapper  {
-    width: 30%;
-    height:500px;
-    /* background-color: lightblue; */
-    border-radius: 10px;
-    border: 1px solid black;
-    margin-left: 5%;
+.donate-form-wrapper {
+  width: 30%;
+  height: 560px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-left: 5%;
+  background-image: url(/public/Trident.png);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .donate-form-wrapper form {
-    width: 90%;
-    margin: 0 auto;
-    /* background-color: violet; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* height:100%; */
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
 }
 
-.donate-title{
-    font-size: 35px;
+.donate-title {
+  font-size: 35px;
 }
-/* .donate-title:after {
-    content: 'U+1F512';
-} */
 
 .button-dollar-container {
-    display:flex;
-    justify-content: center;
-    width:100%;
-    
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
-.button-dollar-container button{
-    /* flex-wrap:  wrap; */
-    
-    font-size: 25px;
-    width:30%;
-    height:50px;
-    margin:2%;
-    padding:5px;
-    border-radius: 7px;
-    border: 2px solid grey;
-    background: white;
+.button-dollar-container button {
+  font-size: 25px;
+  width: 30%;
+  height: 50px;
+  margin: 2%;
+  padding: 5px;
+  border-radius: 7px;
+  border: 2px solid grey;
+  background: white;
 }
-.button-dollar-container button:hover{
-    background: lightgrey;
+.button-dollar-container button:hover {
+  background: lightgrey;
 }
-
 
 .donate-input {
-    width:30%;
-    font-size: 25px;
-    border-radius: 10px;
-    border: 2px solid rgb(0, 114, 167);
-    width:90%;
-    height:50px;
-    margin: 50px 0 80px 0;
+  width: 30%;
+  font-size: 25px;
+  border-radius: 10px;
+  border: 2px solid rgb(0, 114, 167);
+  width: 90%;
+  height: 50px;
+  margin: 50px 0 80px 0;
 }
 @keyframes donate {
-    
-    0% {background-position:80%, 0% }
-    50% {background-position:20%, 20%;}
-    100% {background-position:80%, 0%;}
-    
-        
+  0% {
+    background-position: 90%, 50%;
   }
+  50% {
+    background-position: 40%, 50%;
+  }
+  100% {
+    background-position: 90%, 50%;
+  }
+}
 .donate-button {
-    font-size: 25px;
-    background: linear-gradient(to right, blue,blue, rgb(212, 146, 255));
-    background-size: 150%;
-    border-radius: 10px;
-    border: 2px solid rgb(0, 114, 167);
-    width:90%;
-    height:50px;
-    color: white;
-    animation: donate 3s infinite;
-    
+  font-size: 25px;
+  background: linear-gradient(to right, blue, blue, rgb(212, 146, 255));
+  background-size: 300%;
+  border-radius: 10px;
+  border: 2px solid rgb(0, 114, 167);
+  width: 90%;
+  height: 80px;
+  color: white;
+  animation: donate 3s infinite;
 }
 
-.donate-button:hover{
-    border: 2px solid rgb(212, 146, 255);
-
+.donate-button:hover {
+  border: 2px solid rgb(212, 146, 255);
 }
-
-
 
 @media screen and (min-width: 480px) {
-    
+  .donate-form-wrapper {
+    width: 80%;
+    margin: auto;
+  }
 }
 @media screen and (min-width: 800px) {
-    
+  .donate-form-wrapper {
+    width: 70%;
+    margin: auto;
+  }
 }
 @media screen and (min-width: 1024px) {
-    
+  .donate-form-wrapper {
+    width: 50%;
+    margin-left: 5%;
+  }
 }
 @media screen and (min-width: 1366px) {
-    
+  .donate-form-wrapper {
+    width: 40%;
+    margin-left: 5%;
+  }
 }
 @media screen and (min-width: 1600px) {
-    
 }

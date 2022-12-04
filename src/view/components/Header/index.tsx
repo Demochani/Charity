@@ -1,5 +1,7 @@
 import React from "react";
+import Bio from "../Bio";
 import DonateForm from "../DonateForm";
+import WarMap from "../Map";
 import "./header.css";
 
 export default function Header() {
@@ -25,6 +27,8 @@ export default function Header() {
         {/* <img className="map" src="occupied-map.jpg" alt="img" /> */}
       </div>
       <DonateForm />
+      <WarMap/>
+      <Bio/>
     </header>
   );
 }

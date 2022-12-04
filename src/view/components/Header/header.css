@@ -4,7 +4,7 @@ header {
 .title-container {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   padding-top: 20px;
   /* background-color: lightgrey; */
@@ -21,7 +21,7 @@ header {
   /* height:120px; */
   margin-top: 60px;
   padding: 0 0 0 20px;
-  border-left: 13px solid blue;
+  border-left: 13px solid rgb(51, 80, 248);
   /* background-color: aquamarine; */
 }
 .title h1:before {
