@@ -1,0 +1,21 @@
+.war-map-conrainer {
+    position: relative;
+    opacity:100%;
+    transition: opacity 1s; 
+}
+.war-map-conrainer:hover {
+    opacity:80%;
+}
+
+.war-map-conrainer img {
+    border-radius: 15px;
+}
+
+.map-logo {
+    position: absolute;
+    top:1%;
+    left:1%;
+    width:20%;
+    opacity: 50%;
+    /* filter: blur(2px); */
+}

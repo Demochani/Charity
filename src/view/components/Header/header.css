@@ -1,5 +1,7 @@
 header {
   /* background-color: lightgreen; */
+  display: flex;
+  flex-wrap: wrap;
 }
 .title-container {
   display: flex;
