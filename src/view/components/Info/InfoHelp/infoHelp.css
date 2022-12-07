@@ -1,0 +1,63 @@
+.help-title-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    /* background-color: lightgrey; */
+  }
+  .help-title {
+    margin-bottom: 100px;
+  }
+  
+  .help-title h1 {
+    position: relative;
+    font-size: 2.5em;
+    font-weight: 700;
+    width: 50%;
+    /* height:120px; */
+    margin-top: 60px;
+    padding: 0 0 0 20px;
+    /* border-left: 13px solid rgb(51, 80, 248); */
+    /* background-color: aquamarine; */
+  }
+  /* .help-title h1:before {
+    content: " ";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-left: 13px solid #ffea00;
+  } */
+  
+  .help-map-container {
+    margin-top: 100px;
+    height: 200px;
+    width: 297.324px;
+    /* background-color: green; */
+    background-image: url(/public/ua-map-grey.png);
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    background-size: cover;
+  }
+  .help-map {
+    height: 200px;
+    /* background-color: violet; */
+    position: relative;
+    top: 30px;
+    left: 30px;
+  }
+  
+  @media screen and (min-width: 480px) {
+  }
+  @media screen and (min-width: 800px) {
+  }
+  @media screen and (min-width: 1024px) {
+  }
+  @media screen and (min-width: 1366px) {
+  }
+  @media screen and (min-width: 1600px) {
+  }
+  

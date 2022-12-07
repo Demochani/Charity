@@ -1,75 +1,58 @@
 header {
-  /* background-color: lightgreen; */
-  display: flex;
-  flex-wrap: wrap;
-}
-.title-container {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin: 0 auto;
-  padding-top: 20px;
-  /* background-color: lightgrey; */
-}
-.title {
-  margin-bottom: 100px;
-}
-
-.title h1{
   position: relative;
-  font-size: 2.5em;
-  font-weight: 700;
-  width: 50%;
-  /* height:120px; */
-  margin-top: 60px;
-  padding: 0 0 0 20px;
-  border-left: 13px solid rgb(51, 80, 248);
-  /* background-color: aquamarine; */
-}
-.title h1:before {
-  content: " ";
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-left: 13px solid #ffea00;
 }
 
-.map-container {
-  margin-top: 100px;
-  height: 200px;
-  width: 297.324px;
+.main-img {
+  height: 300px;
   /* background-color: green; */
-  background-image: url(/public/ua-map.png);
+  background-image: url(/public/Main2.jpg);
   background-repeat: no-repeat;
-  background-position: center; /* Center the image */
-  background-size: cover;
-
+  background-position: 40%;
+  /* background-size: cover; */
+  /* filter: blur(0px);
+  -webkit-filter: blur(0px); */
 }
-.map {
-  height: 200px;
-  /* background-color: violet; */
-  position: relative;
-  top: 30px;
-  left: 30px;
+
+.main-title {
+  width: 70%;
+  margin: 0 auto;
   
+  padding-top:20px;
+  /* position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 2; */
+  color: white;
+  font-size: 3em;
 }
-
+.main-title h1,
+h3 {
+  margin: 0;
+}
 
 @media screen and (min-width: 480px) {
-    
+  .main-title {
+    width: 95%;
+  }
 }
 @media screen and (min-width: 800px) {
-    
+  .main-title {
+    width: 95%;
+  }
 }
 @media screen and (min-width: 1024px) {
-    
+  .main-title {
+    width: 90%;
+  }
 }
 @media screen and (min-width: 1366px) {
-    
+  .main-title {
+    width: 80%;
+  }
 }
-@media screen and (min-width: 1600px) {
-    
+@media screen and (min-width: 2000px) {
+  .main-title {
+    width: 1800px;
+  }
 }

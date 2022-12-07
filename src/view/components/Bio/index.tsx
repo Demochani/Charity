@@ -1,17 +1,64 @@
 import React from "react";
+import DonateForm from "../DonateForm";
 import "./bio.css";
 
 export default function Bio() {
   return (
     <div className="bio-container">
+      <div className="bio">
         <p></p>
-      <img className="bio-img" src="https://cdn.theatlantic.com/media/img/photo/2022/04/photos-faces-ukraine/a01_AP22087265881035-1/original.jpg" alt="img"/>
-      <div className="bio-title">
-        <h1>Mechnikov Denis</h1>
-        <h3>"they trample my ground, that's why I came"</h3>
+        <img className="bio-img" src="\img\Sasha.JPG" alt="img" />
+        <div className="bio-title">
+          <h1>Kashirin Oleksandr</h1>
+          <h3>
+             map of hostilities in
+            the Donetsk direction Bakhmut - a hot spot of hostilitiesmap of hostilities in
+            the Donetsk direction Bakhmut - a hot spot of hostilitiesmap of hostilities in
+            the Donetsk direction Bakhmut - a hot spot of hostilities
+          </h3>
+        </div>
       </div>
-      
-      
+      <div className="bio">
+        <p></p>
+        <img className="bio-img" src="\img\Buddy.JPG" alt="img" />
+        <div className="bio-title">
+          <h1>Kashirin Oleksandr</h1>
+          <h3>
+             map of hostilities in
+            the Donetsk direction Bakhmut - a hot spot of hostilitiesmap of hostilities in
+            the Donetsk direction Bakhmut - a hot spot of hostilitiesmap of hostilities in
+            the Donetsk direction Bakhmut - a hot spot of hostilities
+          </h3>
+        </div>
+      </div>
+      <div className="bio">
+        <p></p>
+        <img className="bio-img" src="\img\Scope.JPG" alt="img" />
+        <div className="bio-title">
+          <h1>Kashirin Oleksandr</h1>
+          <h3>
+             map of hostilities in
+            the Donetsk direction Bakhmut - a hot spot of hostilitiesmap of hostilities in
+            the Donetsk direction Bakhmut - a hot spot of hostilitiesmap of hostilities in
+            the Donetsk direction Bakhmut - a hot spot of hostilities
+          </h3>
+        </div>
+      </div>
+
+      <div className="bio">
+        <p></p>
+        <img className="bio-img" src="\img\Team.JPG" alt="img" />
+        <div className="bio-title">
+          <h1>Kashirin Oleksandr</h1>
+          <h3>
+             map of hostilities in
+            the Donetsk direction Bakhmut - a hot spot of hostilitiesmap of hostilities in
+            the Donetsk direction Bakhmut - a hot spot of hostilitiesmap of hostilities in
+            the Donetsk direction Bakhmut - a hot spot of hostilities
+          </h3>
+        </div>
+      </div>
+      {/* <DonateForm/> */}
     </div>
   );
 }

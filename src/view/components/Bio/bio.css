@@ -1,20 +1,36 @@
 .bio-container {
-position: relative;
-width:40%;
-margin: 5%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+
+.bio {
+  position: relative;
+  width:47%;
+  /* margin:5% 2% 5% 5% ; */
+  margin:5% 1% 5% 1% ;
+  max-height: 500px;
+  /* overflow: hidden; */
+  border-radius: 20px;
 }
 
 .bio-img {
-    width: 100%;
-    border-radius: 20px;
+  width: 100%;
+  max-height:560px;
+  border-radius: 20px;
+  object-fit:cover;
 }
 
 .bio-title {
-    position: absolute;
-    top:80%;
-    left: 5%;
-    width: 90%;
-    margin:0 auto;
-    background: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(2px);
+  position: absolute;
+  top: 400px;
+  left: 5%;
+  width: 90%;
+  border-radius: 10px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(2px);
 }

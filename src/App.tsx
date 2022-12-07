@@ -7,10 +7,10 @@ import Navigate from "./view/components/Navigation";
 const App = () => {
   return (
     <div className="App">
-      <Content />
+      <Header />
       <Navigate />
       <div className="wrapper">
-        <Header />
+      <Content />
       </div>
     </div>
   );

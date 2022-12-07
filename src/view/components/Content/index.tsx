@@ -1,15 +1,21 @@
 import React from "react";
+import Bio from "../Bio";
+import DonateForm from "../DonateForm";
+import InfoHelp from "../Info/InfoHelp";
+import InfoUkraine from "../Info/InfoUkraine";
+import InfoWar from "../Info/InfoWar";
+import WarMap from "../Map";
 import "./content.css";
 
-export default function Content() {
+export default function Header() {
   return (
     <section>
-      <div className="main-img">
-      <div className="main-title">
-        <h1>War in Ukraine</h1>
-        <h3>Your donate can save life</h3>
-      </div>
-      </div>
+      <InfoUkraine/>
+      <InfoWar/>
+      <InfoHelp/>
+      <DonateForm />
+      <WarMap/>
+      <Bio/>
       
     </section>
   );

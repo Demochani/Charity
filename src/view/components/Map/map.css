@@ -2,6 +2,8 @@
     position: relative;
     opacity:100%;
     transition: opacity 1s; 
+    overflow: hidden;
+    border-radius: 15px;
 }
 .war-map-conrainer:hover {
     opacity:80%;
@@ -18,4 +20,23 @@
     width:20%;
     opacity: 50%;
     /* filter: blur(2px); */
+}
+
+.map-title {
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    opacity: 0%;
+    height:30%;
+    padding:4%;
+    color:aliceblue;
+    background-color: rgb(17, 17, 17);
+    font-size: 2rem;
+    font-weight: 600;
+    transition: opacity 1s;
+}
+
+.map-title:hover {
+    opacity: 90%;
 }
