@@ -18,7 +18,7 @@
   /* height:120px; */
   margin-top: 60px;
   padding: 0 0 0 20px;
-  border-left: 13px solid rgb(51, 80, 248);
+  border-left: 13px solid #015fbe;
   /* background-color: aquamarine; */
 }
 .ua-title h1:before {
@@ -37,7 +37,7 @@
   height: 200px;
   width: 297.324px;
   /* background-color: green; */
-  background-image: url(/public/ua-map.png);
+  background-image: url(/public/img/ua-map.png);
   background-repeat: no-repeat;
   background-position: center; /* Center the image */
   background-size: cover;

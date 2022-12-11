@@ -1,24 +1,40 @@
 nav {
   position: sticky;
-  height: 100px;
+  height: 120px;
   top: 0;
   z-index: 3;
   background: rgba(206, 206, 206, 0.527);
   backdrop-filter: blur(3px);
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.nav-button {
+  
+  font-size: 25px;
+  margin:1%;
+  /* background: linear-gradient(to right, blue, blue, rgb(212, 146, 255));
+  background-size: 300%; */
+  background-color: #015fbe;
+  border-radius: 10px;
+  border: 2px solid blue;
+  width: 10%;
+  height: 80px;
+  color: white;
+  animation: donate 3s infinite;
+}
+
+.nav-button:hover {
+  border: 2px solid rgb(212, 146, 255);
 }
 
 @media screen and (min-width: 480px) {
-    
 }
 @media screen and (min-width: 800px) {
-    
 }
 @media screen and (min-width: 1024px) {
-    
 }
 @media screen and (min-width: 1366px) {
-    
 }
 @media screen and (min-width: 1600px) {
-    
 }

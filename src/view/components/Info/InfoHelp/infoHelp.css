@@ -17,7 +17,7 @@
     width: 50%;
     /* height:120px; */
     margin-top: 60px;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 0px;
     /* border-left: 13px solid rgb(51, 80, 248); */
     /* background-color: aquamarine; */
   }
@@ -37,7 +37,7 @@
     height: 200px;
     width: 297.324px;
     /* background-color: green; */
-    background-image: url(/public/ua-map-grey.png);
+    background-image: url(/public/img/ua-map-grey.png);
     background-repeat: no-repeat;
     background-position: center; /* Center the image */
     background-size: cover;

@@ -18,7 +18,7 @@ export default function InfoUkraine() {
       </div>
 
       <div className="ua-map-container">
-        <img className="ua-map" src="ua-map-color.png" alt="img" />
+        <img className="ua-map" src="img/ua-map-color.png" alt="img" />
       </div>
       {/* <img className="map" src="occupied-map.jpg" alt="img" /> */}
     </div>

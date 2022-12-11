@@ -18,7 +18,7 @@ export default function InfoHelp() {
       </div>
 
       <div className="help-map-container">
-        <img className="help-map" src="ua-map-color.png" alt="img" />
+        <img className="help-map" src="img/ua-map-color.png" alt="img" />
       </div>
       {/* <img className="map" src="occupied-map.jpg" alt="img" /> */}
     </div>
