@@ -6,14 +6,20 @@ export default function InfoHelp() {
   return (
     <div className="help-title-container">
       <div className="help-title">
-        <h1>Foundation for ukrainian warriors</h1>
+        <h1>Modern Warfare</h1>
         <h3>
-          Fundraising for 131 brigade of the Ukrainian army. The Russian
-          Federation came with a full-scale invasion. 9 months ago we lost hope,
-          but it was brought back by our soldier. Now almost all the money goes
-          to the battlefield, but unfortunately the efforts of ordinary citizens
-          and even the fund are not enough to provide for all the military.
-          Please help kind people!
+          Conducting defensive tactics and repelling attacks of the aggressor
+          requires the provision of soldiers of the Armed Forces of Ukraine with
+          innovative equipment for the rapid detection of invaders, which in
+          turn will save the life of a Ukrainian soldier. These are expensive
+          devices, thermal imagers, collimator sights, night vision devices and
+          much more. Ukrainians will never forget the generosity and support of
+          the international community at this difficult time for us. With
+          respect and gratitude, we will accept any possible assistance from you
+          in raising funds for the purchase of modern high-precision equipment
+          and technology for Ukrainian soldiers. Support Ukraine with donations
+          in just a few clicks on your keyboard. With a low bow, Ukrainian
+          people!
         </h3>
       </div>
 
