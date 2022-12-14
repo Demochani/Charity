@@ -7,7 +7,7 @@ export default function InfoUkraine() {
     <div className="ua-title-container">
       <div className="ua-title">
         <h1>Ukraine</h1>
-        <h2>
+        <h3>
           Ukraine is a peace-loving country in Eastern Europe, is the
           geographical center of Europe, it is a very ancient country that arose
           in the 9th century, the successor of Kievan Rus. They say this about
@@ -30,7 +30,7 @@ export default function InfoUkraine() {
           bite. And when the enemy retreats all swollen and puzzled by their
           unity, they also peacefully continue their peaceful work ... ”((c)
           Pavel Belokopytov)
-        </h2>
+        </h3>
       </div>
 
       <div className="ua-map-container">

@@ -14,7 +14,7 @@
     position: relative;
     font-size: 2.5em;
     font-weight: 700;
-    width: 50%;
+    width: 70%;
     /* height:120px; */
     margin-top: 60px;
     padding: 0 0 0 20px;
@@ -52,7 +52,36 @@
   
   @media screen and (min-width: 480px) {
   }
-  @media screen and (min-width: 800px) {
+  @media screen and (max-width: 800px) {
+    .war-title h1 {
+      width: 100%;
+    }
+    .war-map-container {
+      display: none;
+    }
+    .war-map {
+      display: none;
+    }
+    .war-title-container {
+      display: block;
+      position: relative;
+    }
+    
+    .war-title-container::after {
+      content: "";
+      background-image: url(/public/img/ua-occumap-grey.png);
+      background-repeat: no-repeat;
+      background-position: center; /* Center the image */
+      background-size:contain;
+      opacity: 0.6;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;   
+    }
+    
   }
   @media screen and (min-width: 1024px) {
   }
