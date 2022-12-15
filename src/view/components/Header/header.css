@@ -8,7 +8,6 @@ header {
   background-image: url(/public/img/Main2.jpg);
   background-repeat: no-repeat;
   background-position: 40%;
-  /* background-size: cover; */
   /* filter: blur(0px);
   -webkit-filter: blur(0px); */
 }
@@ -40,10 +39,14 @@ h3 {
   .main-title {
     width: 95%;
   }
+  
 }
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .main-title {
     width: 90%;
+  }
+  .main-img {
+    background-size: 150%;
   }
 }
 @media screen and (min-width: 1366px) {

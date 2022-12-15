@@ -18,7 +18,7 @@
     /* height:120px; */
     margin-top: 60px;
     padding: 0 0 0 0px;
-    /* border-left: 13px solid rgb(51, 80, 248); */
+    border-left: 11px solid rgb(155, 155, 155);
     /* background-color: aquamarine; */
   }
   /* .help-title h1:before {
@@ -37,10 +37,10 @@
     height: 200px;
     width: 297.324px;
     /* background-color: green; */
-    background-image: url(/public/img/ua-map-grey.png);
+    background-image: url(https://img.freepik.com/premium-vector/emblem-ukrainian-armed-forces_539065-65.jpg);
     background-repeat: no-repeat;
     background-position: center; /* Center the image */
-    background-size: cover;
+    background-size: contain;
   }
   .help-map {
     height: 200px;
@@ -48,6 +48,7 @@
     position: relative;
     top: 30px;
     left: 30px;
+    opacity: 0.9;
   }
   
   @media screen and (min-width: 480px) {
@@ -69,11 +70,11 @@
     
     .help-title-container::after {
       content: "";
-      background-image: url(/public/img/ua-map-grey.png);
+      background-image: url(https://img.freepik.com/premium-vector/emblem-ukrainian-armed-forces_539065-65.jpg);
       background-repeat: no-repeat;
       background-position: center; /* Center the image */
       background-size:contain;
-      opacity: 0.6;
+      opacity: 0.3;
       top: 0;
       left: 0;
       bottom: 0;
