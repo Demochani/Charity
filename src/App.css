@@ -2,6 +2,11 @@
     margin: auto;
 }
 
+@media screen and (min-width: 300px) {
+    .wrapper {
+        width:92%;
+    }
+}
 @media screen and (min-width: 480px) {
     .wrapper {
         width:90%;

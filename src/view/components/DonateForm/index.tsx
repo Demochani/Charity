@@ -6,7 +6,7 @@ export default function DonateForm() {
   return (
     <div className="donate-form-wrapper">
       <form>
-        <p className="donate-title">Secure donation &#9989;</p>
+        <p className="donate-title">Secure donation </p>
         {/* 128274 */}
         <div className="button-dollar-container">
           <button>$ 5</button>

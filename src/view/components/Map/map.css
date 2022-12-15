@@ -1,42 +1,60 @@
 .war-map-conrainer {
-    position: relative;
-    opacity:100%;
-    transition: opacity 1s; 
-    overflow: hidden;
-    border-radius: 15px;
+  position: relative;
+  opacity: 100%;
+  transition: opacity 1s;
+  overflow: hidden;
+  border-radius: 15px;
+  height: 560px;
+  width: 70%;
+  margin: auto;
+  
 }
 .war-map-conrainer:hover {
-    opacity:80%;
+  opacity: 80%;
 }
 
 .war-map-conrainer img {
-    border-radius: 15px;
+  border-radius: 15px;
+  object-fit: cover;
 }
 
 .map-logo {
-    position: absolute;
-    top:1%;
-    left:1%;
-    width:20%;
-    opacity: 50%;
-    /* filter: blur(2px); */
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 20%;
+  opacity: 50%;
+  /* filter: blur(2px); */
 }
 
 .map-title {
-    position: absolute;
-    bottom:0;
-    left:0;
-    width:100%;
-    opacity: 0%;
-    height:30%;
-    padding:4%;
-    color:aliceblue;
-    background-color: rgb(17, 17, 17);
-    font-size: 2rem;
-    font-weight: 600;
-    transition: opacity 1s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 100%;
+  height: 30%;
+  padding: 4%;
+  color: aliceblue;
+  background-color: rgb(17, 17, 17);
+  font-size: 2rem;
+  font-weight: 600;
+  transition: opacity 1s;
 }
 
-.map-title:hover {
-    opacity: 90%;
+/* .map-title:hover {
+  opacity: 90%;
+} */
+
+@media screen and (min-width: 300px) {
+}
+@media screen and (min-width: 480px) {
+}
+@media screen and (min-width: 800px) {
+}
+@media screen and (min-width: 1064px) {
+}
+@media screen and (min-width: 1366px) {
+}
+@media screen and (min-width: 1600px) {
 }

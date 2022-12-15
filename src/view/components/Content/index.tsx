@@ -7,16 +7,17 @@ import InfoWar from "../Info/InfoWar";
 import WarMap from "../Map";
 import "./content.css";
 
-export default function Header() {
+export default function Content() {
   return (
     <section>
-      <InfoUkraine/>
-      <InfoWar/>
-      <InfoHelp/>
-      <DonateForm />
-      <WarMap/>
-      <Bio/>
-      
+      <InfoUkraine />
+      <InfoWar />
+      <InfoHelp />
+      <div className="map-donate-container">
+        <DonateForm />
+        <WarMap />
+      </div>
+      <Bio />
     </section>
   );
 }
