@@ -53,6 +53,9 @@
   @media screen and (min-width: 480px) {
   }
   @media screen and (max-width: 800px) {
+  
+  }
+  @media screen and (max-width: 1024px) {
     .war-title h1 {
       width: 100%;
     }
@@ -81,9 +84,6 @@
       position: absolute;
       z-index: -1;   
     }
-    
-  }
-  @media screen and (min-width: 1024px) {
   }
   @media screen and (min-width: 1366px) {
   }

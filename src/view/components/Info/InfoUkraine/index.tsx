@@ -28,7 +28,7 @@ export default function InfoUkraine() {
           they suffer losses - hundreds, thousands, millions. They give off
           stings with just one bite, without thinking that they will die after a
           bite. And when the enemy retreats all swollen and puzzled by their
-          unity, they also peacefully continue their peaceful work ... ”((c)
+          unity, they also peacefully continue their peaceful work ... ”(&copy;
           Pavel Belokopytov)
         </h3>
       </div>

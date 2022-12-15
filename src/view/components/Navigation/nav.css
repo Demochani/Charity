@@ -1,24 +1,30 @@
 nav {
   position: sticky;
-  height: 120px;
+  height: 110px;
   top: 0;
   z-index: 3;
-  background: rgba(206, 206, 206, 0.527);
+  background: rgba(219, 219, 219, 0.527);
   backdrop-filter: blur(3px);
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline
 }
-
+.nav-report{
+  margin-left: 8%;
+  font-size: 28px;
+  font-weight: 600;
+  color: #494949;
+}
 .nav-button {
-  
   font-size: 25px;
-  margin:1%;
+  margin: 1% 3%;
   /* background: linear-gradient(to right, blue, blue, rgb(212, 146, 255));
   background-size: 300%; */
   background-color: #015fbe;
   border-radius: 10px;
   border: 2px solid blue;
-  width: 10%;
+  width: 15%;
   height: 80px;
   color: white;
   animation: donate 3s infinite;
@@ -32,7 +38,20 @@ nav {
 }
 @media screen and (min-width: 800px) {
 }
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
+  nav {
+    height: 80px;
+  }
+  .nav-button {
+    font-size: 25px;
+    margin: 2% 3%;
+    width: 20%;
+    height: 50px;
+  }
+  .nav-report{
+    margin-left: 3%;
+    font-size: 22px;
+  }
 }
 @media screen and (min-width: 1366px) {
 }

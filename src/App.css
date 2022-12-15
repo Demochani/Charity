@@ -4,17 +4,17 @@
 
 @media screen and (min-width: 480px) {
     .wrapper {
-        width:95%;
+        width:90%;
     }
 }
 @media screen and (min-width: 800px) {
     .wrapper {
-        width:90%;
+        width:85%;
     }
 }
 @media screen and (min-width: 1024px) {
     .wrapper {
-        width:90%;
+        width:85%;
     }
 }
 @media screen and (min-width: 1366px) {
