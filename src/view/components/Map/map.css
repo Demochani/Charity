@@ -4,27 +4,26 @@
   transition: opacity 1s;
   overflow: hidden;
   border-radius: 15px;
-  height: 560px;
-  width: 70%;
-  margin: auto;
   
+  /* max-width:560px; */
+  /* margin: auto; */
+  background-image: url(https://www.rbc.ua/static/ckef2/img/%20%D1%81%D0%BA%D1%80%D0%B8%D0%BD%20deepstatemap%20live.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
 }
 .war-map-conrainer:hover {
   opacity: 80%;
 }
 
-.war-map-conrainer img {
+/* .war-map-conrainer img {
   border-radius: 15px;
   object-fit: cover;
-}
+} */
 
 .map-logo {
-  position: absolute;
-  top: 1%;
-  left: 1%;
-  width: 20%;
   opacity: 50%;
-  /* filter: blur(2px); */
+  position: absolute;
 }
 
 .map-title {
@@ -32,7 +31,8 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  opacity: 100%;
+  opacity: 90%;
+  /* backdrop-filter: blur(3px); */
   height: 30%;
   padding: 4%;
   color: aliceblue;
@@ -47,12 +47,55 @@
 } */
 
 @media screen and (min-width: 300px) {
+  .war-map-conrainer {
+    height: 560px;
+    width: 90%;
+    margin-top: 70px;
+    /* max-width:560px; */
+    background-image: url(https://www.rbc.ua/static/ckef2/img/%20%D1%81%D0%BA%D1%80%D0%B8%D0%BD%20deepstatemap%20live.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .map-logo {
+    top: 1%;
+    left: 5%;
+    width: 40%;
+  }
 }
 @media screen and (min-width: 480px) {
+  .war-map-conrainer {
+    height: 560px;
+    width: 80%;
+    /* max-width:560px; */
+    /* margin: auto; */
+    background-image: url(https://www.rbc.ua/static/ckef2/img/%20%D1%81%D0%BA%D1%80%D0%B8%D0%BD%20deepstatemap%20live.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 @media screen and (min-width: 800px) {
+  .map-logo {
+    top: 1%;
+    left: 1%;
+    width: 25%;
+  }
 }
 @media screen and (min-width: 1064px) {
+  .war-map-conrainer {
+    height: 560px;
+    width: 70%;
+    /* max-width:560px; */
+    margin: auto;
+    background-image: url(https://www.rbc.ua/static/ckef2/img/%20%D1%81%D0%BA%D1%80%D0%B8%D0%BD%20deepstatemap%20live.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  .map-logo {
+    top: 1%;
+    left: 1%;
+    width: 20%;
+  }
 }
 @media screen and (min-width: 1366px) {
 }

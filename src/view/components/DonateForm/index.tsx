@@ -1,6 +1,6 @@
 import React from "react";
 import "./donateForm.css";
-import LockIcon from "../../common/LockIcon";
+// import LockIcon from "../../common/LockIcon";
 
 export default function DonateForm() {
   return (

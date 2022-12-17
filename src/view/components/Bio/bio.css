@@ -35,18 +35,46 @@
   backdrop-filter: blur(2px);
 }
 
+@media screen and (min-width: 300px) {
+  .bio-container {
+    
+    
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bio {
+    position: relative;
+    width: 80%;
+    /* margin:5% 2% 5% 5% ; */
+    /* margin: 5% 1% 5% 1%; */
+    max-height: 500px;
+    /* overflow: hidden; */
+    border-radius: 20px;
+  }
+}
 @media screen and (min-width: 480px) {
 }
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px) {
 }
-@media screen and (max-width: 1224px) {
+@media screen and (min-width: 1034px) {
   .bio-container {
-    width: 100%;
-    display: flex;
+    
+    
     flex-wrap: wrap;
     flex-direction: row;
+    
     /* justify-content: center; */
     justify-content: space-between;
+  }
+  .bio {
+    position: relative;
+    width: 47%;
+    /* margin:5% 2% 5% 5% ; */
+    margin: 5% 1% 5% 1%;
+    max-height: 500px;
+    /* overflow: hidden; */
+    border-radius: 20px;
   }
 }
 @media screen and (min-width: 1366px) {
