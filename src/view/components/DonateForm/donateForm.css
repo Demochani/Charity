@@ -65,11 +65,12 @@
 }
 .donate-button {
   font-size: 30px;
-  background: linear-gradient(to right, blue, #015fbe, rgb(212, 146, 255));
+  background: linear-gradient(to right, #003569, #015fbe, rgb(212, 146, 255));
   background-size: 300%;
   border-radius: 10px;
   border: 2px solid rgb(0, 114, 167);
   width: 90%;
+  min-width: 150px;
   height: 80px;
   color: white;
   animation: donate 3s infinite;

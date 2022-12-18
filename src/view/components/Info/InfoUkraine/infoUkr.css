@@ -31,8 +31,11 @@
   bottom: 0;
   border-left: 13px solid #ffea00;
 }
+.ua-title h3 {
+  font-size: 1.5rem;
+}
 
-.ua-map-container {
+.ua-map {
   display: block;
   margin-top: 100px;
   height: 200px;
@@ -43,7 +46,7 @@
   background-position: center; /* Center the image */
   background-size: cover;
 }
-.ua-map {
+.ua-map img {
   display: block;
   height: 200px;
   /* background-color: violet; */
@@ -64,17 +67,19 @@
   .ua-title h1 {
     width: 100%;
   }
-  .ua-map-container {
+  .ua-map {
     display: none;
   }
-  .ua-map {
+  .ua-map img {
     display: none;
   }
   .ua-title-container {
     display: block;
     position: relative;
   }
-  
+  .ua-title h3 {
+    font-size: 1rem;
+  }
   .ua-title-container::after {
     content: "";
     background-image: url(/public/img/ua-map-color.png);
@@ -91,6 +96,7 @@
   }
 }
 @media screen and (max-width: 1366px) {
+  
 }
 @media screen and (max-width: 1600px) {
 }

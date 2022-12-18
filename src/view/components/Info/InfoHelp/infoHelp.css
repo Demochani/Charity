@@ -31,8 +31,10 @@
     bottom: 0;
     border-left: 13px solid #ffea00;
   } */
-  
-  .help-map-container {
+  .help-title h3 {
+    font-size: 1.5rem;
+  }
+  .help-map {
     margin-top: 100px;
     height: 200px;
     width: 297.324px;
@@ -42,7 +44,7 @@
     background-position: center; /* Center the image */
     background-size: contain;
   }
-  .help-map {
+  .help-map img{
     height: 200px;
     /* background-color: violet; */
     position: relative;
@@ -57,10 +59,10 @@
     .help-title h1 {
       width: 100%;
     }
-    .help-map-container {
+    .help-map {
       display: none;
     }
-    .help-map {
+    .help-map img{
       display: none;
     }
     .help-title-container {
@@ -84,7 +86,10 @@
     }
     
   }
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1224px) {
+    .help-title h3 {
+      font-size: 1rem;
+    }
   }
   @media screen and (max-width: 1366px) {
   }

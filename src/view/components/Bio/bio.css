@@ -1,3 +1,21 @@
+.main-bio-title {
+  margin: 70px 0 70px 0;
+  background-color: #e0e0e0;
+  /* background-color: #003569; */
+  color: rgb(116, 116, 116);
+  font-size: 2rem;
+  padding: 30px 0 30px 0;
+  width: 100%;
+  position: relative;
+}
+.main-bio-title div {
+  width: 100vw;
+  z-index: -2;
+  position: absolute;
+  bottom: 0;
+  left: calc(-50vw + 50%);
+  background-color: #e0e0e0;
+}
 .bio-container {
   width: 100%;
   display: flex;
@@ -10,35 +28,41 @@
 .bio {
   position: relative;
   width: 47%;
+  /* background-color: rgb(236, 236, 236); */
+  background-color: #003569;
   /* margin:5% 2% 5% 5% ; */
-  margin: 5% 1% 5% 1%;
-  max-height: 500px;
-  /* overflow: hidden; */
+  margin-bottom: 4%;
+  height: 950px;
+  overflow: hidden;
   border-radius: 20px;
+  /* border-left: 8px solid #015fbe; */
+}
+.bio h1 {
+  margin-left: 5%;
+  color: white;
 }
 
 .bio-img {
   width: 100%;
-  max-height: 560px;
-  border-radius: 20px;
-  object-fit: cover;
+  /* max-height: 300px; */
+  /* border-radius: 20px; */
+  object-fit: contain;
 }
 
 .bio-title {
   position: absolute;
-  top: 400px;
-  left: 5%;
-  width: 90%;
-  border-radius: 10px;
-  margin: 0 auto;
-  background: rgba(255, 255, 255, 0.6);
+  bottom: 0;
+  /* left: 5%; */
+  width: 100%;
+  /* border-radius: 10px; */
+  padding: 2%;
+  /* margin: 0 auto; */
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(2px);
 }
 
 @media screen and (min-width: 300px) {
   .bio-container {
-    
-    
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
@@ -52,18 +76,22 @@
     /* overflow: hidden; */
     border-radius: 20px;
   }
+  .main-bio-title div {
+    height: 140px;
+  }
 }
 @media screen and (min-width: 480px) {
+  .main-bio-title div {
+    height: 120px;
+  }
 }
 @media screen and (min-width: 800px) {
 }
 @media screen and (min-width: 1034px) {
   .bio-container {
-    
-    
     flex-wrap: wrap;
     flex-direction: row;
-    
+
     /* justify-content: center; */
     justify-content: space-between;
   }
@@ -71,7 +99,7 @@
     position: relative;
     width: 47%;
     /* margin:5% 2% 5% 5% ; */
-    margin: 5% 1% 5% 1%;
+    /* margin: 5% 1% 5% 1%; */
     max-height: 500px;
     /* overflow: hidden; */
     border-radius: 20px;

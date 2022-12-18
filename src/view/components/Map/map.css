@@ -37,6 +37,8 @@
   padding: 4%;
   color: aliceblue;
   background-color: rgb(17, 17, 17);
+  /* background-color: #003569; */
+  /* background-color:  #015fbe; */
   font-size: 2rem;
   font-weight: 600;
   transition: opacity 1s;
@@ -50,7 +52,7 @@
   .war-map-conrainer {
     height: 560px;
     width: 90%;
-    margin-top: 70px;
+    margin-top: 30px;
     /* max-width:560px; */
     background-image: url(https://www.rbc.ua/static/ckef2/img/%20%D1%81%D0%BA%D1%80%D0%B8%D0%BD%20deepstatemap%20live.jpg);
     background-repeat: no-repeat;

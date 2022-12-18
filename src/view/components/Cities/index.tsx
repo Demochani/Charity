@@ -1,10 +1,10 @@
 import React from "react";
-import "./bio.css";
+import "./cities.css";
 
-export default function Bio() {
+export default function Cities() {
   return (
     <>
-    <h1 className="main-bio-title">From civilians into warriors<div></div></h1>
+    <h1 className="main-bio-title">Russia is a terrorist state<div></div></h1>
     <div className="bio-container">
       
       <div className="bio">

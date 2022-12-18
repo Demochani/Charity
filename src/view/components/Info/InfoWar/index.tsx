@@ -4,9 +4,12 @@ import "./infoWar.css";
 
 export default function InfoWar() {
   return (
+    <>
     <div className="war-title-container">
       <div className="war-title">
-        <h1>Russian Federation occupied about 147 700 km² of Ukraine in winter</h1>
+        <h1>
+          Russian Federation occupied about 147 700 km² of Ukraine in winter
+        </h1>
         <h3>
           On February 24, 2022, the Russian Federation, without declaring war,
           invaded Ukraine, and this invasion resulted in unimaginable suffering
@@ -24,12 +27,21 @@ export default function InfoWar() {
           making history, fighting not only for peace in Ukraine, but also for
           peace throughout the world.
         </h3>
+        
       </div>
 
-      <div className="war-map-container">
-        <img className="war-map" src="img/ua-occumap-grey.png" alt="img" />
+      <div className="war-map">
+        <img src="img/ua-occumap-grey.png" alt="img" />
       </div>
       {/* <img className="map" src="occupied-map.jpg" alt="img" /> */}
+      
     </div>
+    <div className="img-container">
+          <img src="img/Main1.jpg" alt="img" />
+          <img src="img/Main1.jpg" alt="img" />
+          <img src="img/Main1.jpg" alt="img" />
+          <img src="img/Main1.jpg" alt="img" />
+        </div>
+    </>
   );
 }
