@@ -4,59 +4,47 @@ import "./cities.css";
 export default function Cities() {
   return (
     <>
-    <h1 className="main-bio-title">Russia is a terrorist state<div></div></h1>
-    <div className="bio-container">
+    <p className="main-city-title"><span>Russia</span> is a terrorist state<div></div></p>
+    <div className="city-container">
       
-      <div className="bio">
-      <h1>Kashirin Oleksandr</h1>
-        <img className="bio-img" src="\img\Sasha.JPG" alt="img" />
-        <div className="bio-title">
+      <div className="city">
+      <h1>Mariupol</h1>
+        <img className="city-img" src="\img\Main3.jpg" alt="img" />
+        <div className="city-title">
           
           <h3>
-             map of hostilities in
-            the Donetsk direction Bakhmut - a hot spot of hostilitiesmap of hostilities in
-            the Donetsk direction Bakhmut - a hot spot of hostilitiesmap of hostilities in
-            the Donetsk direction Bakhmut - a hot spot of hostilities
+            March 2022. Russian soldiers destroyed the whole city
           </h3>
         </div>
       </div>
-      <div className="bio">
-      <h1>Kashirin Oleksandr</h1>
-        <img className="bio-img" src="\img\Buddy.JPG" alt="img" />
-        <div className="bio-title">
+      <div className="city">
+      <h1>Bucha</h1>
+        <img className="city-img" src="\img\Main2.jpg" alt="img" />
+        <div className="city-title">
           
           <h3>
-             map of hostilities in
-            the Donetsk direction Bakhmut - a hot spot of hostilitiesmap of hostilities in
-            the Donetsk direction Bakhmut - a hot spot of hostilitiesmap of hostilities in
-            the Donetsk direction Bakhmut - a hot spot of hostilities
+          March 2022. Russian soldiers destroyed the whole city
           </h3>
         </div>
       </div>
-      <div className="bio">
-      <h1>Kashirin Oleksandr</h1>
-        <img className="bio-img" src="\img\Scope.JPG" alt="img" />
-        <div className="bio-title">
+      <div className="city">
+      <h1>Irpin</h1>
+        <img className="city-img" src="\img\Main1.jpg" alt="img" />
+        <div className="city-title">
           
           <h3>
-             map of hostilities in
-            the Donetsk direction Bakhmut - a hot spot of hostilitiesmap of hostilities in
-            the Donetsk direction Bakhmut - a hot spot of hostilitiesmap of hostilities in
-            the Donetsk direction Bakhmut - a hot spot of hostilities
+          March 2022. Russian soldiers destroyed the whole city
           </h3>
         </div>
       </div>
 
-      <div className="bio">
-      <h1>Kashirin Oleksandr</h1>
-        <img className="bio-img" src="\img\Team.JPG" alt="img" />
-        <div className="bio-title">
+      <div className="city">
+      <h1>Izyum</h1>
+        <img className="city-img" src="\img\Team.JPG" alt="img" />
+        <div className="city-title">
           
           <h3>
-             map of hostilities in
-            the Donetsk direction Bakhmut - a hot spot of hostilitiesmap of hostilities in
-            the Donetsk direction Bakhmut - a hot spot of hostilitiesmap of hostilities in
-            the Donetsk direction Bakhmut - a hot spot of hostilities
+          March 2022. Russian soldiers destroyed the whole city
           </h3>
         </div>
       </div>

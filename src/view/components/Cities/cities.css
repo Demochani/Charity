@@ -1,14 +1,28 @@
-.main-bio-title {
+.main-city-title {
     margin: 70px 0 70px 0;
     background-color: #e0e0e0;
     /* background-color: #003569; */
     color: rgb(116, 116, 116);
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 30px 0 30px 0;
     width: 100%;
     position: relative;
+    font-weight: 600;
   }
-  .main-bio-title div {
+  .main-city-title span {
+        text-shadow:
+        4px 4px 1px #300000,
+       4px 6px 1px #600000,
+       4px 8px 1px #800000,
+       4px 10px 1px #900000,
+       4px 12px 1px #B00000,
+       4px 14px 1px #D00000,
+       4px 16px 1px #E00000,
+       4px 18px 1px #F00000,
+       4px 20px 1px #FF0000;
+  }
+
+  .main-city-title div {
     width: 100vw;
     z-index: -2;
     position: absolute;
@@ -16,7 +30,7 @@
     left: calc(-50vw + 50%);
     background-color: #e0e0e0;
   }
-  .bio-container {
+  .city-container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -25,33 +39,33 @@
     justify-content: space-between;
   }
   
-  .bio {
+  .city {
     position: relative;
     width: 47%;
     /* background-color: rgb(236, 236, 236); */
     background-color: #003569;
     /* margin:5% 2% 5% 5% ; */
     margin-bottom: 4%;
-    height: 950px;
+    /* height: 950px; */
     overflow: hidden;
     border-radius: 20px;
     /* border-left: 8px solid #015fbe; */
   }
-  .bio h1 {
+  .city h1 {
     margin-left: 5%;
     color: white;
   }
   
-  .bio-img {
+  .city-img {
     width: 100%;
     /* max-height: 300px; */
     /* border-radius: 20px; */
     object-fit: contain;
   }
   
-  .bio-title {
-    position: absolute;
-    bottom: 0;
+  .city-title {
+    /* position: absolute; */
+    /* bottom: 0; */
     /* left: 5%; */
     width: 100%;
     /* border-radius: 10px; */
@@ -62,12 +76,12 @@
   }
   
   @media screen and (min-width: 300px) {
-    .bio-container {
+    .city-container {
       flex-wrap: wrap;
       flex-direction: column;
       align-items: center;
     }
-    .bio {
+    .city {
       position: relative;
       width: 80%;
       /* margin:5% 2% 5% 5% ; */
@@ -76,28 +90,26 @@
       /* overflow: hidden; */
       border-radius: 20px;
     }
-    .main-bio-title div {
+    .main-city-title div {
       height: 140px;
     }
   }
   @media screen and (min-width: 480px) {
-    .main-bio-title div {
+    .main-city-title div {
       height: 120px;
     }
   }
   @media screen and (min-width: 800px) {
   }
   @media screen and (min-width: 1034px) {
-    .bio-container {
-      flex-wrap: wrap;
-      flex-direction: row;
-  
-      /* justify-content: center; */
-      justify-content: space-between;
+    .city-container {
+      /* flex-wrap: wrap; */
+      /* flex-direction: row; */
+      /* justify-content: space-between; */
     }
-    .bio {
+    .city {
       position: relative;
-      width: 47%;
+      width: 80%;
       /* margin:5% 2% 5% 5% ; */
       /* margin: 5% 1% 5% 1%; */
       max-height: 500px;
