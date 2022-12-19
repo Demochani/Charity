@@ -39,10 +39,10 @@
     height: 200px;
     width: 297.324px;
     /* background-color: green; */
-    /* background-image: url(/public/ua-map-grey.png);
+    background-image: url(/public/img/ua-map.png);
     background-repeat: no-repeat;
-    background-position: center; 
-    background-size: cover; */
+    background-position: center;  
+    background-size: cover;
   }
   .war-map img{
     height: 200px;

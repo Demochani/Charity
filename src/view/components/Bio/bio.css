@@ -28,8 +28,8 @@
 .bio {
   position: relative;
   width: 47%;
-  /* background-color: rgb(236, 236, 236); */
-  background-color: #003569;
+  background-color: rgb(255, 255, 255);
+  /* background-color: #003569; */
   /* margin:5% 2% 5% 5% ; */
   margin-bottom: 4%;
   height: 950px;
@@ -38,8 +38,10 @@
   /* border-left: 8px solid #015fbe; */
 }
 .bio h1 {
-  margin-left: 5%;
-  color: white;
+  margin: 0;
+    padding:20px 0 20px 20px;
+    color: white;
+    background-color: #003569;
 }
 
 .bio-img {
