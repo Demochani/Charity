@@ -23,7 +23,7 @@ export default function InfoHelp() {
         </h3>
       </div>
 
-      <div className="help-map">
+      <div className="help-map" id="donate">
         <img src="img/ua-map-blue.png" alt="img" />
       </div>
       {/* <img className="map" src="occupied-map.jpg" alt="img" /> */}

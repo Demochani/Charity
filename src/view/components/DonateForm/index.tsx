@@ -1,10 +1,11 @@
 import React from "react";
 import "./donateForm.css";
+import { Link } from "react-router-dom";
 // import LockIcon from "../../common/LockIcon";
 
 export default function DonateForm() {
   return (
-    <div className="donate-form-wrapper">
+    <div className="donate-form-wrapper" >
       <form>
         <p className="donate-title">Secure donation </p>
         {/* 128274 */}
@@ -19,8 +20,8 @@ export default function DonateForm() {
           <button>$ 1000</button>
         </div>
         <input className="donate-input" type="text" placeholder="$" pattern="[\d]{1,10}" />
-        
         <input className="donate-button" type="submit" value="Donate"></input>
+        {/* <Link to={'Check'}><input className="donate-button" type="submit" value="Donate"></input></Link> */}
       </form>
     </div>
   );

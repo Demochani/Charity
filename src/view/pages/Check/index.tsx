@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function index() {
+export default function Check() {
   return (
-    <div>lol</div>
+    <div>check</div>
   )
 }

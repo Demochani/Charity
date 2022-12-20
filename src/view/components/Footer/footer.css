@@ -1,91 +1,88 @@
 footer {
-    /* position: sticky; */
-    display: flex;
-    height: 110px;
-    /* top: 0; */
-    z-index: 3;
-    background: rgba(219, 219, 219, 0.527);
-    backdrop-filter: blur(3px);
-    align-items: center;
+  /* flex-grow: 0;
+  flex-shrink: 0; */
+    margin-top:auto;
+  display: flex;
+  height: 110px;
+  background: rgba(219, 219, 219, 0.527);
+  align-items: center;
+}
+.foot-wrap {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.foot-report {
+  font-size: 28px;
+  font-weight: 600;
+  color: #494949;
+}
+.foot-button {
+  font-size: 25px;
+
+  /* background: linear-gradient(to right, blue, blue, rgb(212, 146, 255));
+    background-size: 300%; */
+  background-color: #015fbe;
+  /* background-color: #003569; */
+  border-radius: 10px;
+  border: 2px solid blue;
+  width: 15%;
+  height: 80px;
+  color: white;
+  animation: donate 3s infinite;
+}
+
+.foot-button:hover {
+  border: 2px solid rgb(212, 146, 255);
+}
+
+@media screen and (min-width: 350px) {
+  footer {
+    height: 70px;
   }
-  .foot-wrap {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  .foot-button {
+    font-size: 20px;
+    margin-right: 3%;
+    width: 35%;
+    height: 40px;
   }
   .foot-report {
-    font-size: 28px;
-    font-weight: 600;
-    color: #494949;
+    margin-left: 3%;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 600px) {
+  footer {
+    height: 80px;
   }
   .foot-button {
     font-size: 25px;
-  
-    /* background: linear-gradient(to right, blue, blue, rgb(212, 146, 255));
-    background-size: 300%; */
-    background-color: #015fbe;
-    /* background-color: #003569; */
-    border-radius: 10px;
-    border: 2px solid blue;
-    width: 15%;
-    height: 80px;
-    color: white;
-    animation: donate 3s infinite;
+    margin-right: 3%;
+    width: 20%;
+    height: 50px;
   }
-  
-  .foot-button:hover {
-    border: 2px solid rgb(212, 146, 255);
+  .foot-report {
+    margin-left: 3%;
+    font-size: 25px;
   }
-  
-  @media screen and (min-width: 350px) {
-    footer {
-      height: 70px;
-    }
-    .foot-button {
-      font-size: 20px;
-      margin-right: 3%;
-      width: 35%;
-      height: 40px;
-    }
-    .foot-report {
-      margin-left: 3%;
-      font-size: 18px;
-    }
+}
+@media screen and (min-width: 800px) {
+  .foot-button {
+    margin-right: 6%;
   }
-  @media screen and (min-width: 600px) {
-    footer {
-      height: 80px;
-    }
-    .foot-button {
-      font-size: 25px;
-      margin-right: 3%;
-      width: 20%;
-      height: 50px;
-    }
-    .foot-report {
-      margin-left: 3%;
-      font-size: 25px;
-    }
+  .foot-report {
+    margin-left: 6%;
   }
-  @media screen and (min-width: 800px) {
-    .foot-button {
-      margin-right: 6%;
-    }
-    .foot-report {
-      margin-left: 6%;
-    }
+}
+@media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 1366px) {
+}
+@media screen and (min-width: 1900px) {
+  .foot-wrap {
+    width: 1900px;
   }
-  @media screen and (min-width: 1024px) {
-  }
-  @media screen and (min-width: 1366px) {
-  }
-  @media screen and (min-width: 1900px) {
-    .foot-wrap {
-      width: 1900px;
-      
-    }
-  }
-  
+}

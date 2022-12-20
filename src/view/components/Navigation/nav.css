@@ -1,3 +1,7 @@
+/* nav a {  text-decoration: none;}
+nav a:visited {text-decoration: none; }
+ */
+
 nav {
   position: sticky;
   display: flex;
@@ -20,10 +24,18 @@ nav {
   font-size: 28px;
   font-weight: 600;
   color: #494949;
+  text-decoration: none;
+}
+ .nav-button a:visited{
+  color: white;
+  text-decoration: none;
+}
+.nav-button a {
+  color: white;
+  text-decoration: none;
 }
 .nav-button {
   font-size: 25px;
-
   /* background: linear-gradient(to right, blue, blue, rgb(212, 146, 255));
   background-size: 300%; */
   background-color: #015fbe;

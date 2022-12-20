@@ -72,7 +72,7 @@
     
     .help-title-container::after {
       content: "";
-      background-image: url(https://img.freepik.com/premium-vector/emblem-ukrainian-armed-forces_539065-65.jpg);
+      background-image:url(https://img.freepik.com/premium-vector/emblem-ukrainian-armed-forces_539065-65.jpg);
       background-repeat: no-repeat;
       background-position: center; /* Center the image */
       background-size:contain;
