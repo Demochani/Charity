@@ -70,11 +70,27 @@
       position: relative;
     }
     
-    .help-title-container::after {
+    /* .help-title-container::after {
       content: "";
-      background-image:url(https://img.freepik.com/premium-vector/emblem-ukrainian-armed-forces_539065-65.jpg);
+      background-image:url(/public/img/emblem.webp);
+       background-image:url(/public/img/testBGHelp.jpg); 
       background-repeat: no-repeat;
-      background-position: center; /* Center the image */
+      background-position: center; 
+      background-size:contain;
+      opacity: 0.3;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;   
+    } */
+    .help-title-container h3::after {
+      content: "";
+      
+       background-image:url(/public/img/testBGHelp.jpg); 
+      background-repeat: no-repeat;
+      background-position: bottom; 
       background-size:contain;
       opacity: 0.3;
       top: 0;

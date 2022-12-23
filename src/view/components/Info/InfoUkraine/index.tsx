@@ -14,7 +14,7 @@ export default function InfoUkraine() {
           the civilians of modern Ukraine: “I suddenly realized who the
           Ukrainians remind me of. They are like BEES. They also fly peacefully,
           work, collect pollen, produce honey, raise babies. From flower to
-          flower - collected - and carried home. Peaceful ones. Never touch
+          flower - collected - and carried home. Peaceful ones. Never hurt
           anyone... Until you climb into their hive ... They turn from plowmen
           into warriors And each in its own way combat unit. And the more you
           attack them, the more they unite and protect their own. You start to
@@ -28,8 +28,8 @@ export default function InfoUkraine() {
           they suffer losses - hundreds, thousands, millions. They give off
           stings with just one bite, without thinking that they will die after a
           bite. And when the enemy retreats all swollen and puzzled by their
-          unity, they also peacefully continue their peaceful work ... ”(&copy; Pavel
-          Belokopytov)
+          unity, they also peacefully continue their peaceful work ... ”(&copy;
+          Pavel Belokopytov)
         </h3>
       </div>
 

@@ -18,7 +18,7 @@ export default function Content() {
         <DonateForm />
         <WarMap />
       </div>
-      <Bio />
+      {/* <Bio /> */}
       <Cities/>
     </section>
   );

@@ -9,7 +9,7 @@ export default function Header() {
         <div className="main-title">
           <Link to={"/"}>
             <h1>War in Ukraine</h1>
-            <h3>Your donate can save life</h3>
+            <h3>Let peace prevail</h3>
           </Link>
         </div>
       </div>
