@@ -19,8 +19,8 @@ export default function InfoUkraine() {
           into warriors And each in its own way combat unit. And the more you
           attack them, the more they unite and protect their own. You start to
           beat them with a rubber stick, they start to sting one by one. You
-          start trying to disperse them with gas - they unite in hundreds ...
-          ... Putin - a big Russian bear tried to turn the beehive over in the
+          start trying to disperse them with gas - they unite in hundreds ...<br></br>
+          Putin - a big Russian bear tried to turn the beehive over in the
           apiary and to force the bees to carry honey to him. Hundreds rose from
           all over the apiary. And after all, they will not stop stinging until
           justice in the apiary is restored to the last living angry bee. That's

@@ -3,9 +3,11 @@ import React from "react";
 import "./infoWar.css";
 
 export default function InfoWar() {
+  
   return (
     <>
       <div className="war-title-container">
+        
         <div className="war-title">
           <h1>
             Russian Federation occupied about 147 700 km² of Ukraine in winter
@@ -19,7 +21,7 @@ export default function InfoWar() {
             entire cities. In a country that fed 400 million people in the
             world, many are now malnourished. Among the victims of the war are
             elderly people, thousands of killed and wounded children, raped and
-            murdered women. But the Ukrainians did not give up, strong-willed
+            murdered women.<br></br> But the Ukrainians did not give up, strong-willed
             and strong, they united and took the fight. Hundreds of thousands of
             men voluntarily took to the road of resistance, defending their
             people, their mothers, wives and children. Many women voluntarily

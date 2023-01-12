@@ -18,8 +18,8 @@ export default function InfoHelp() {
           international community at this difficult time for us. With respect
           and gratitude, we will accept any possible assistance from you in
           raising funds for the purchase of modern high-precision equipment and
-          technology for Ukrainian soldiers. Support Ukraine with donations in
-          just a few clicks on your keyboard. With a low bow, Ukrainian people!
+          technology for Ukrainian soldiers. <br></br>Support Ukraine with donations in
+          just a few clicks on your keyboard.<br></br> With a low bow, Ukrainian people!
         </h3>
       </div>
 

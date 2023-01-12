@@ -14,8 +14,8 @@ export default function Content() {
       <InfoUkraine />
       <InfoWar />
       <InfoHelp />
-      <div className="map-donate-container">
-        <DonateForm />
+      <div className="map-donate-container" >
+        <DonateForm/>
         <WarMap />
       </div>
       {/* <Bio /> */}

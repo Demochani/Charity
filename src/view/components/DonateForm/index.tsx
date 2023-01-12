@@ -1,13 +1,15 @@
-import React, {useContext} from "react";
+import React, {useState} from "react";
 import "./donateForm.css";
-// import { Link } from "react-router-dom";
-import { ModalContext } from "../../common/Modal/ModalContext";
-import ModalQuestion from "../../common/Modal";
 import Modal from "../../common/Modal/Modal";
-// import LockIcon from "../../common/LockIcon";
+import { flattenDiagnosticMessageText } from "typescript";
+import DonateCheck from "../DonateCheck";
 
 export default function DonateForm() {
-  const {modal, open, close} = useContext(ModalContext)
+  const [modalActive, setModalActive] = useState<boolean>(false)
+  const open = () => {
+    setModalActive(true)
+}
+
   return (
     <div className="donate-form-wrapper" >
       <form>
@@ -29,9 +31,9 @@ export default function DonateForm() {
         {/* <input className="donate-button" type="submit" value="Donate" onClick={open}></input> */}
         {/* <Link to={'Check'}><input className="donate-button" type="submit" value="Donate"></input></Link> */}
       </form>
-      {modal && <Modal onClose={close}>
-                <ModalQuestion/>
-            </Modal>}
+      <Modal active={modalActive} setActive={setModalActive}>
+        <DonateCheck/>
+      </Modal>
     </div>
   );
 }

@@ -1,4 +1,10 @@
+import React from "react";
+
 export type ModalProps = {
     children: React.ReactNode
-    onClose: () => void
+    active: boolean;
+    setActive: (e:boolean) => void;
 }
+
+
+
